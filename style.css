@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+/* Scrolling */
+html {
+    scroll-behavior: smooth;
+  }
+
+
+/* Default */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Michroma', sans-serif;
+    background-color: #0a192f;
+}
+
+
+/* NavBar */
+.navbar{
+    color: white;
+
+}
+
+nav{
+    display: flex;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 3%; 
+    justify-content: space-between;
+    font-size: 1rem;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 15px;
+ 
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    cursor: pointer;
+    color: green;
+}
+
+nav ul button{
+    background-color: #0a192f;
+    color: white;
+    border: 1px solid green;
+    padding: 5px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+nav ul button:hover{
+    cursor: pointer;
+    background-color: #11223b;
+    color: green;
+}
+
+h2 span{
+    color: green;
+}
+
+/* Introduction */
+.intro{
+    margin: 140px 230px;
+
+}
+.intro h3{
+    color: white;
+    font-size: 3rem;
+}
+.intro p2{
+    color: rgba(245, 245, 245, 0.823);
+    font-size: 3.5rem;
+}
+.intro pre{
+    color: rgba(245, 245, 245, 0.823);
+    font-size: 1rem;
+    
+}
+p1 span{
+    color: green;
+}
+
+.achievement button{
+    text-decoration: none;
+    border: 2px solid green;
+    padding: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.achievement button a{
+    color: green;
+    text-decoration: none;
+}
+.achievement button:hover{
+    background-color: transparent green;
+    
+}
+
+/* About */
+.about {
+    margin: 30px 280px;
+    color: rgba(245, 245, 245, 0.823);
+}
+#aboutme{
+    font-size: 1.5rem;
+}
+.about pre{
+    padding: 2px;
+    font-size: 0.9rem;
+}
+.about pre span{
+    color: green;
+}
+
+.image img{
+    position: absolute;
+    margin: -194px 795px;
+    border: 1px solid green;
+}
+
+.skillset li{
+    box-sizing: inherit;
+    font-size: 0.9rem;
+    padding: 5px;
+    list-style: none;
+}
+
+.skillset li::before{
+    content: "\02C3";
+    color: green;
+    padding: 0px 20px;
+    margin-right: 10px;
+
+}
