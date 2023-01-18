@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
 
+  @import url('https://fonts.googleapis.com/css2?family=Michroma&family=Silkscreen&display=swap');
+
+
 /* Scrolling */
 html {
     scroll-behavior: smooth;
@@ -31,12 +34,17 @@ nav{
     font-size: 1rem;
 }
 
+#logo img{
+    /* display: inline-block; */
+    margin: -16px -57px;
+}
 nav ul li{
     display: inline-block;
     list-style: none;
     padding: 0px 15px;
  
 }
+
 nav ul li a{
     text-decoration: none;
     color: white;
@@ -62,9 +70,6 @@ nav ul button:hover{
     color: green;
 }
 
-h2 span{
-    color: green;
-}
 
 /* Introduction */
 .intro{
@@ -82,10 +87,18 @@ h2 span{
 .intro pre{
     color: rgba(245, 245, 245, 0.823);
     font-size: 1rem;
+    line-height: 1.7em;
+    word-spacing: 2px;
     
 }
-p1 span{
+p1,h3 span{
     color: green;
+}
+p1 span{
+    font-size: 1.4rem;
+    color: green;
+    font-family: 'Silkscreen', cursive;
+ 
 }
 
 .achievement button{
@@ -106,25 +119,29 @@ p1 span{
 
 /* About */
 .about {
-    margin: 30px 280px;
+    margin: 20px 280px;
     color: rgba(245, 245, 245, 0.823);
 }
 #aboutme{
-    font-size: 1.5rem;
+    font-size: 2rem;
+    color: green;
+    font-family: 'Silkscreen', cursive;
 }
 .about pre{
     padding: 2px;
     font-size: 0.9rem;
+    line-height: 1.7em;
+    word-spacing: 2px;
 }
 .about pre span{
     color: green;
 }
 
-.image img{
+/* .image img{
     position: absolute;
     margin: -194px 795px;
     border: 1px solid green;
-}
+} */
 
 .skillset li{
     box-sizing: inherit;
@@ -140,3 +157,16 @@ p1 span{
     margin-right: 10px;
 
 }
+
+/* Education
+
+.education, .work {
+    margin: 30px 280px;
+    color: green;
+    font-size: 2rem;
+}
+.education span, .work span{
+    font-size: 1.5rem;
+    color: rgba(245, 245, 245, 0.823);
+
+} */
